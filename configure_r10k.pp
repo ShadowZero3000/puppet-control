@@ -15,11 +15,16 @@ class { 'r10k':
   sources           => {
     'puppet' => {
       'remote'  => 'https://github.com/ShadowZero3000/puppet-control.git',
-      'basedir' => "${::settings::confdir}/environments",
+      'basedir' => "${::settings::codedir}/environments",
+      'prefix'  => false,
+    },
+    'hiera' => {
+      'remote'  => 'https://github.com/ShadowZero3000/puppet-control.git',
+      'basedir' => "${::settings::codedir}/hiera",
       'prefix'  => false,
     }
   },
   ## purgedirs is deprecated, but may be needed for older versions (see https://github.com/acidprime/r10k/pull/84)
-  ## purgedirs         => ["${::settings::confdir}/environments"],
+  ## purgedirs         => ["${::settings::codedir}/environments"],
   manage_modulepath => false,
 }

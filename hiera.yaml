@@ -12,5 +12,5 @@
 # - /var/lib/hiera on *nix
 # - %CommonAppData%\PuppetLabs\hiera\var on Windows
 # When specifying a datadir, make sure the directory exists.
-#  :datadir: "/etc/puppetlabs/puppet/environments/%{environment}/hieradata"
-  :datadir: "/etc/puppet/hieradata/production"
+  :datadir: "/etc/puppetlabs/code/hiera/%{environment}/hieradata"
+#  :datadir: "/etc/puppet/hieradata/production"
