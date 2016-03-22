@@ -11,7 +11,7 @@
 ## (e.g. 1.5.1 for recent module versions, expected to be 2.0.3 at the next major zack-r10k release)
 
 class { 'r10k':
-  version           => '1.5.1',
+  #version           => '1.5.1',
   sources           => {
     'puppet' => {
       'remote'  => 'https://github.com/ShadowZero3000/puppet-control.git',
@@ -19,7 +19,7 @@ class { 'r10k':
       'prefix'  => false,
     },
     'hiera' => {
-      'remote'  => 'https://github.com/ShadowZero3000/puppet-control.git',
+      'remote'  => 'https://github.com/ShadowZero3000/puppet-hieradata.git',
       'basedir' => "${::settings::codedir}/hiera",
       'prefix'  => false,
     }
