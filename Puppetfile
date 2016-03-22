@@ -6,6 +6,9 @@ mod 'stdlib',
 mod 'etherpad',
   :git => 'https://github.com/shadowzero3000/puppet-etherpad.git',
   :ref => 'master'
+mod 'pi_profiles',
+  :git => 'https://github.com/ShadowZero3000/puppet-pi_profiles.git',
+  :ref => 'master'
 
 # mod 'example42/puppi'
 mod 'attachmentgenie/ssh'
