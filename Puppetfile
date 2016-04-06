@@ -2,7 +2,7 @@ forge "http://forge.puppetlabs.com"
 
 mod 'stdlib',
   :git => 'https://github.com/puppetlabs/puppetlabs-stdlib.git',
-  :ref => '4.2.2'
+  :ref => '4.11.0'
 mod 'etherpad',
   :git => 'https://github.com/shadowzero3000/puppet-etherpad.git',
   :ref => 'master'
