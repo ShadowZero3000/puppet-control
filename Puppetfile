@@ -13,6 +13,7 @@ mod 'pi_profiles',
 # mod 'example42/puppi'
 mod 'attachmentgenie/ssh'
 mod 'attachmentgenie/ufw'
+mod 'danzilio/letsencrypt'
 mod 'jfryman/nginx'
 mod 'maestrodev/wget'
 mod 'nanliu/staging'
